@@ -1,9 +1,8 @@
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class taskTwo {
-    private Map<String, String> phoneBook;
+    private final Map<String, String> phoneBook;
 
     public taskTwo() {
         phoneBook = new HashMap<>();
